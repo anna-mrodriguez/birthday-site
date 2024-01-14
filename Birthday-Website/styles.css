@@ -1,0 +1,138 @@
+body {
+    text-align: center;
+    font-family: 'Rosarivo', cursive;
+    background: radial-gradient(#E00148, #EFB0C9, #F03374);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 3px #7E8E54;
+}
+
+#mom-img {
+    width: 250px;
+    border-radius: 20%;
+    border: 6px solid #7E8E54;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #7E8E54;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #7E8E54;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-the-office:hover {
+    background-image: url("images/the-office.webp"); 
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/happy.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("images/genius.gif");
+}
+
+#gift-img-no-one:hover {
+    background-image: url("images/no-one.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
+
+/* CSS HEX */
+--rose: #F03374ff;
+--tea-rose-red: #E5B5BAff;
+--parchment: #F1E9D3ff;
+--brown-sugar: #AE6B59ff;
+--drab-dark-brown: #443815ff;
+
+/* CSS HSL */
+--rose: hsla(339, 86%, 57%, 1);
+--tea-rose-red: hsla(354, 48%, 80%, 1);
+--parchment: hsla(44, 52%, 89%, 1);
+--brown-sugar: hsla(13, 34%, 52%, 1);
+--drab-dark-brown: hsla(45, 53%, 17%, 1);
+
+/* SCSS HEX */
+$rose: #F03374ff;
+$tea-rose-red: #E5B5BAff;
+$parchment: #F1E9D3ff;
+$brown-sugar: #AE6B59ff;
+$drab-dark-brown: #443815ff;
+
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #F03374ff, #E5B5BAff, #F1E9D3ff, #AE6B59ff, #443815ff);
+$gradient-right: linear-gradient(90deg, #F03374ff, #E5B5BAff, #F1E9D3ff, #AE6B59ff, #443815ff);
+$gradient-bottom: linear-gradient(180deg, #F03374ff, #E5B5BAff, #F1E9D3ff, #AE6B59ff, #443815ff);
+$gradient-left: linear-gradient(270deg, #F03374ff, #E5B5BAff, #F1E9D3ff, #AE6B59ff, #443815ff);
+$gradient-top-right: linear-gradient(45deg, #F03374ff, #E5B5BAff, #F1E9D3ff, #AE6B59ff, #443815ff);
+$gradient-bottom-right: linear-gradient(135deg, #F03374ff, #E5B5BAff, #F1E9D3ff, #AE6B59ff, #443815ff);
+$gradient-top-left: linear-gradient(225deg, #F03374ff, #E5B5BAff, #F1E9D3ff, #AE6B59ff, #443815ff);
+$gradient-bottom-left: linear-gradient(315deg, #F03374ff, #E5B5BAff, #F1E9D3ff, #AE6B59ff, #443815ff);
+$gradient-radial: radial-gradient(#F03374ff, #E5B5BAff, #F1E9D3ff, #AE6B59ff, #443815ff);
